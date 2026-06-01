@@ -1,0 +1,47 @@
+name: testing_chat
+description: "ChatFlow - Real-time chat application"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management + Routing
+  get: ^4.6.6
+
+  # HTTP client with interceptors
+  dio: ^5.7.0
+
+  # Socket.IO client for realtime messaging
+  socket_io_client: ^3.0.2
+
+  # Local storage for JWT tokens
+  shared_preferences: ^2.3.3
+
+  # Image caching
+  cached_network_image: ^3.4.1
+
+  # Image picker (camera + gallery)
+  image_picker: ^1.1.2
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # Loading shimmer effect
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
