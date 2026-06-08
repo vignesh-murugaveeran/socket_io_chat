@@ -30,7 +30,7 @@ class ChatApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'ChatFlow',
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       theme: ThemeData(
         brightness: Brightness.dark,
         scaffoldBackgroundColor: const Color(0xFF0D0D1A),
@@ -54,7 +54,9 @@ class ChatApp extends StatelessWidget {
         snackBarTheme: SnackBarThemeData(
           backgroundColor: const Color(0xFF2A2D3E),
           contentTextStyle: const TextStyle(color: Colors.white),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
           behavior: SnackBarBehavior.floating,
         ),
       ),

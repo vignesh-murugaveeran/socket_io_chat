@@ -6,7 +6,7 @@ class AppConfig {
   // For iOS simulator use: localhost
   // For physical device use: your PC's local IP (e.g. 192.168.1.x)
   static const String baseUrl =
-      'https://socketiochat-production.up.railway.app/:8080';
+      'https://socketiochat-production.up.railway.app';
   static const String apiUrl = '$baseUrl/api';
   static const String socketUrl = baseUrl;
 
